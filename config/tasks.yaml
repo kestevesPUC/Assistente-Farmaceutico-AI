@@ -1,0 +1,13 @@
+responder_pergunta_compliance:
+  description: >
+    Responder perguntas relacionadas a conformidade com base nas regulamentações da ANVISA, BPF e GMP nos arquivos em PDF.
+    Fornecer a seção mais relevante das regulamentações e resumi-la de forma clara.
+
+    Pergunta:
+    {pergunta}
+
+  expected_output: >
+    Uma resposta precisa e bem estruturada, fundamentada nas regulamentações mais relevantes sobre conformidade.
+    Se aplicável, citar a seção específica das BPF, RDC nº 301 ou RDC nº 658.
+
+  agent: especialista_compliance
