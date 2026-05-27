@@ -27,7 +27,7 @@ A IA pode:
 
 ## Tecnologias utilizadas
 
-* Python
+* Python 3.11.0
 * Streamlit
 * CrewAI
 * OpenAI API
@@ -53,7 +53,7 @@ https://platform.openai.com/home
 Instale as dependências:
 
 ```bash
-pip install -r requirements.txt
+pip install streamlit crewai
 ```
 
 Execute a aplicação:
